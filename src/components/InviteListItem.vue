@@ -18,7 +18,7 @@ defineProps<{ item: IUserFriend }>()
 .cardContainer
   width 100%
   height 42px
-  background: radial-gradient(50% 50% at 50% 50%, #3081b4, #19488c)
+  background radial-gradient(50% 50% at 50% 50%, #3081b4, #19488c)
   border-style solid
   border-top 0
   border-left 0
