@@ -1,4 +1,8 @@
 <script setup lang="ts">
+/**
+ * In real app we would fetch the list of friends from the server and use a composable or a store
+ * so we won't prop drill the data.
+ */
 import BaseText from '@/components/base/BaseText.vue'
 import ClaimButton from '@/components/ClaimButton.vue'
 import InviteListItemGroup from '@/components/InviteListItemGroup.vue'
